@@ -1,6 +1,6 @@
 # if, 
 
-age=17
+# age=17
 
 # if age>18
 # 	puts "adult"
