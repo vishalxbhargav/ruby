@@ -239,7 +239,7 @@ end
 # 2. Variables - local, class, instance, global and Constants
 $y=20
 def update()
- y=30
+ $y=30
  return 
 end
 #local variable
@@ -281,6 +281,8 @@ customer2=Customer.new("abc",2);
 customer3=Customer.new("jkl",3)
 
 puts customer.get_customer_count
+puts customer2.get_customer_count
+puts customer3.get_customer_count
 
 
 #Constant variable
