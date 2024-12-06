@@ -195,17 +195,55 @@
 # end
 
 
-begin
+# begin
          
-    # using raise to create an exception   
-    raise 'Exception Created!'
+#     # using raise to create an exception   
+#     raise 'Exception Created!'
    
-    puts 'After Exception' 
+#     puts 'After Exception' 
    
-  # using Rescue method 
-rescue    
-    puts 'Finally Saved!'
+#   # using Rescue method 
+# rescue    
+#     puts 'Finally Saved!'
     
-# using retry statement   
-retry
-end 
+# # using retry statement   
+# retry
+# end 
+# 
+
+# Phase 4
+# Iterator
+arr=Array.new();
+for i in 1..100
+  arr<<i
+end
+
+hash=[{name:"xyz",age:22},{name:"abc",age:22},{name:"jkl",age:22},{name:"xtr",age:22}]
+
+# - each Iterator
+# 
+#
+hash.each do |pair|
+  pair.each{|arr| puts "{#{arr[0]},#{arr[1]}}"}
+end
+# arr=arr.each do |n|
+#     puts n
+# end
+# - times iterator
+# times iterator runs number of times we provide
+#
+# 5.times do |i|
+#   puts i
+# end
+# - map iterator
+# 
+# hash.map{|key| puts key}
+# hash.each_with_index{|key,value| puts "{#{key},#{value}}"}
+
+
+# - collect iterator
+# 
+#
+# b=arr.collect{|x| x+20}
+# puts b
+# - select iterator and etc
