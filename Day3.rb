@@ -203,7 +203,7 @@ begin
     puts 'After Exception' 
    
   # using Rescue method 
-  rescue    
+rescue    
     puts 'Finally Saved!'
     
 # using retry statement   
