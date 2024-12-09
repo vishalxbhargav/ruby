@@ -26,7 +26,7 @@
 
 arr=Array.new(20){|x| x=x*2}
 
-puts arr.inspect
+# puts arr.inspect
 
 
 # Non-destructive Selection
@@ -54,8 +54,8 @@ puts arr.inspect
 #delete_if and keep_if
 
 # arr=Array.new(10){|x| x=x*x+x}
-arr=[3,-2,4,60,0,8,7]
-puts arr.inspect
+# arr=[3,-2,4,60,0,8,7]
+# puts arr.inspect
 # arr.delete_if{|x| x>10}
 # puts arr.inspect
 
@@ -69,6 +69,16 @@ puts arr.inspect
 # puts arr.unshift(4).inspect//add element on fist place
 
 
-puts arr.last
-puts arr.first
-puts arr.include? 22
+# puts arr.last
+# puts arr.first
+# puts arr.include? 22
+# 
+
+# take methode - return array with first n number of element if n element exitst
+# arr=Array.new(10){|x| x=x+1}
+# arr2=arr.take(5);
+# puts arr2.inspect
+
+# arr=['21','101','23','2','112','19','1','103']
+# puts arr.sort.inspect
+# puts arr.sort{|a,b| a+b<=>b+a}.inspect
