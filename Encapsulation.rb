@@ -2,7 +2,7 @@
 #att_*---attr_writer use to only create getter and attr_reader used to create setter
 class Bank
 	attr_accessor :accout_holder_name, :balance
-
+	
 	def add_balance(amout)
 		@balance=balance+amout
 	end

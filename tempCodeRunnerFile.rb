@@ -1,1 +1,1 @@
-d=std.id
+man

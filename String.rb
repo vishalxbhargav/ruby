@@ -1,4 +1,4 @@
-
+#frozen_string_literal:true
 #string creation explicitly
 #string literal
 # strDefinde = "here is string define";
@@ -110,14 +110,16 @@ s= "hello word program"
 # puts "ABCD".downcase
 # puts "hello word program".capitalize
 # puts "hello Word Program".swapcase
+# p s.object_id
+# s+="abc"
+
+# p s.object_id
+# p s
 
 
-"string as string".each_line{|word| puts word}
-
-
-
-
-
+MY_CONSTANT = "Hello, world"
+MY_CONSTANT[1] = "u"
+p MY_CONSTANT
 
 
 
